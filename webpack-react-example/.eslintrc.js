@@ -13,10 +13,10 @@ module.exports = {
         }
     },
     extends: [
-        "plugin: react/recommended", // @eslint-plugin-react가 권장하는 규칙 사용
-        "plugin: @typescript-eslint/recommended" // @typescript-eslint/eslint-plugin 권장 규칙 사용
+        "plugin:react/recommended", // @eslint-plugin-react가 권장하는 규칙 사용
+        "plugin:@typescript-eslint/recommended" // @typescript-eslint/eslint-plugin 권장 규칙 사용
     ],
-    rules: {
+    rules: { // eslint 규칙 지정
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
     }
     //TODO prettier부터
